@@ -1,0 +1,55 @@
+{
+  "name": "banque-centrale-du-congo-exchange-rate",
+  "version": "1.2.7",
+  "description": "Official Banque Centrale du Congo (DR Congo) daily exchange rates — 21 currencies vs CDF, current table, archive from 2026. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "bcc",
+    "banque",
+    "centrale",
+    "du",
+    "congo",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "cdf",
+    "central-bank",
+    "official-rates",
+    "dr-congo",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/bcc/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/banque-centrale-du-congo-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/banque-centrale-du-congo-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
