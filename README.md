@@ -70,10 +70,10 @@ const pair = await getRate('USD', 'CDF', { apiKey: 'art_live_...' });
 {
   bank: 'bcc',
   name: 'Banque Centrale du Congo',
-  rate_date: '2026-09-07',   // Banque Centrale du Congo's own publication date
+  rate_date: '2026-09-09',   // Banque Centrale du Congo's own publication date
   source: 'USD',
   target: 'CDF',
-  rate: 2264.29,
+  rate: 2263,
   rate_type: 'middle',
   derived: false,
   method: 'published',
@@ -98,11 +98,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bcc',
   name: 'Banque Centrale du Congo',
-  rate_date: '2026-09-07',
+  rate_date: '2026-09-09',
   rates: [
-    { "base": "USD", "quote": "CDF", "type": "middle", "value": 2264.29 },
-    { "base": "USD", "quote": "CDF", "type": "sell", "value": 2315.36 },
-    { "base": "USD", "quote": "CDF", "type": "buy", "value": 2213.22 },
+    { "base": "USD", "quote": "CDF", "type": "middle", "value": 2263 },
+    { "base": "USD", "quote": "CDF", "type": "sell", "value": 2314.04 },
+    { "base": "USD", "quote": "CDF", "type": "buy", "value": 2211.96 },
     // … the rest of the published table (21 currencies vs CDF)
   ],
   disclaimer: '…'
@@ -142,7 +142,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'banque-centrale-du-congo-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'CDF', from: '2026-01-01', to: '2026-09-07' },
+  { source: 'USD', target: 'CDF', from: '2026-01-01', to: '2026-09-09' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -155,11 +155,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'CDF',
   from: '2026-01-01',
-  to: '2026-09-07',
+  to: '2026-09-09',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-07', rate: 2264.29, rate_type: 'middle', derived: false, method: 'published' },
+    { date: '2026-09-09', rate: 2263, rate_type: 'middle', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -237,6 +237,14 @@ getRate('USD', 'CDF', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 | `getLatestRates({ apiKey })` | Free | The central bank's full latest published table |
 | `getRatesForDate(date, { apiKey, source?, target? })` | Paid | The official table (or one pair) for a YYYY-MM-DD date |
 | `getHistory({ symbol \| source+target, from?, to? }, { apiKey })` | Paid | Daily series since 2026 |
+
+## 📥 Bulk data (no key)
+
+Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
+
+- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/bcc.csv`)
+- Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
+- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bcc/latest.json`
 
 ## 🔗 Links
 
