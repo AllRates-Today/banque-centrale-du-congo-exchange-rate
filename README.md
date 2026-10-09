@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/banque-centrale-du-congo-exchange-rate.svg)](https://github.com/AllRates-Today/banque-centrale-du-congo-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/banque-centrale-du-congo-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/CDF today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbcc%3Fsource%3DUSD%26target%3DCDF&query=%24.rate&label=USD%2FCDF%20published%20by%20Banque%20Centrale%20du%20Congo&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bcc/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbcc%3Fsource%3DUSD%26target%3DCDF&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bcc/)
 
 **Official Banque Centrale du Congo (DR Congo) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Banque Centrale du Congo itself prints, every business day.**
 
@@ -32,6 +34,79 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Banque Centrale du Congo table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-09** by Banque Centrale du Congo — 63 rates, first 60 shown. Updated 2026-10-09.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | CDF | buy | 602.96 |
+| AED | CDF | middle | 616.87 |
+| AED | CDF | sell | 630.78 |
+| AOA | CDF | buy | 2.41 |
+| AOA | CDF | middle | 2.47 |
+| AOA | CDF | sell | 2.53 |
+| AUD | CDF | buy | 1538.75 |
+| AUD | CDF | middle | 1574.25 |
+| AUD | CDF | sell | 1609.75 |
+| BIF | CDF | buy | 0.74 |
+| BIF | CDF | middle | 0.755 |
+| BIF | CDF | sell | 0.77 |
+| CAD | CDF | buy | 1553.97 |
+| CAD | CDF | middle | 1589.825 |
+| CAD | CDF | sell | 1625.68 |
+| CHF | CDF | buy | 2656.46 |
+| CHF | CDF | middle | 2717.75 |
+| CHF | CDF | sell | 2779.04 |
+| CNY | CDF | buy | 330.34 |
+| CNY | CDF | middle | 337.96 |
+| CNY | CDF | sell | 345.58 |
+| EUR | CDF | buy | 2478.62 |
+| EUR | CDF | middle | 2535.81 |
+| EUR | CDF | sell | 2593 |
+| GBP | CDF | buy | 2922.75 |
+| GBP | CDF | middle | 2990.19 |
+| GBP | CDF | sell | 3057.63 |
+| INR | CDF | buy | 22.88 |
+| INR | CDF | middle | 23.41 |
+| INR | CDF | sell | 23.94 |
+| JPY | CDF | buy | 13.99 |
+| JPY | CDF | middle | 14.315 |
+| JPY | CDF | sell | 14.64 |
+| KWD | CDF | buy | 7126.15 |
+| KWD | CDF | middle | 7290.575 |
+| KWD | CDF | sell | 7455 |
+| RWF | CDF | buy | 1.5 |
+| RWF | CDF | middle | 1.535 |
+| RWF | CDF | sell | 1.57 |
+| SAR | CDF | buy | 590.5 |
+| SAR | CDF | middle | 604.125 |
+| SAR | CDF | sell | 617.75 |
+| TZS | CDF | buy | 0.84 |
+| TZS | CDF | middle | 0.86 |
+| TZS | CDF | sell | 0.88 |
+| UGX | CDF | buy | 0.54 |
+| UGX | CDF | middle | 0.555 |
+| UGX | CDF | sell | 0.57 |
+| USD | CDF | buy | 2214.57 |
+| USD | CDF | middle | 2265.67 |
+| USD | CDF | sell | 2316.77 |
+| XAF | CDF | buy | 3.78 |
+| XAF | CDF | middle | 3.865 |
+| XAF | CDF | sell | 3.95 |
+| XDR | CDF | buy | 2994.59 |
+| XDR | CDF | middle | 3063.685 |
+| XDR | CDF | sell | 3132.78 |
+| ZAR | CDF | buy | 132.71 |
+| ZAR | CDF | middle | 135.77 |
+| ZAR | CDF | sell | 138.83 |
+
+[Full table on the Banque Centrale du Congo rates page](https://allratestoday.com/central-bank-rates-api/bcc/) · Source: [Official rates published by BCC, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcc/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
