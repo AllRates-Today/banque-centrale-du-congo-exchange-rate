@@ -162,10 +162,10 @@ const pair = await getRate('USD', 'CDF', { apiKey: 'art_live_...' });
 {
   bank: 'bcc',
   name: 'Banque Centrale du Congo',
-  rate_date: '2026-10-12',   // Banque Centrale du Congo's own publication date
+  rate_date: '2026-10-14',   // Banque Centrale du Congo's own publication date
   source: 'USD',
   target: 'CDF',
-  rate: 2265,
+  rate: 2265.04,
   rate_type: 'middle',
   derived: false,
   method: 'published',
@@ -190,11 +190,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bcc',
   name: 'Banque Centrale du Congo',
-  rate_date: '2026-10-12',
+  rate_date: '2026-10-14',
   rates: [
-    { "base": "USD", "quote": "CDF", "type": "middle", "value": 2265 },
-    { "base": "USD", "quote": "CDF", "type": "sell", "value": 2316.08 },
-    { "base": "USD", "quote": "CDF", "type": "buy", "value": 2213.92 },
+    { "base": "USD", "quote": "CDF", "type": "middle", "value": 2265.04 },
+    { "base": "USD", "quote": "CDF", "type": "sell", "value": 2316.12 },
+    { "base": "USD", "quote": "CDF", "type": "buy", "value": 2213.96 },
     // … the rest of the published table (21 currencies vs CDF)
   ],
   disclaimer: '…'
@@ -234,7 +234,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'banque-centrale-du-congo-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'CDF', from: '2026-01-01', to: '2026-10-12' },
+  { source: 'USD', target: 'CDF', from: '2026-01-01', to: '2026-10-14' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -247,11 +247,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'CDF',
   from: '2026-01-01',
-  to: '2026-10-12',
+  to: '2026-10-14',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-12', rate: 2265, rate_type: 'middle', derived: false, method: 'published' },
+    { date: '2026-10-14', rate: 2265.04, rate_type: 'middle', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
