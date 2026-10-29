@@ -47,70 +47,70 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Banque Centrale du Congo — 63 rates, first 60 shown. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Banque Centrale du Congo — 63 rates, first 60 shown. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | CDF | buy | 601.93 |
-| AED | CDF | middle | 615.82 |
-| AED | CDF | sell | 629.71 |
+| AED | CDF | buy | 601.89 |
+| AED | CDF | middle | 615.78 |
+| AED | CDF | sell | 629.67 |
 | AOA | CDF | buy | 2.41 |
 | AOA | CDF | middle | 2.465 |
 | AOA | CDF | sell | 2.52 |
-| AUD | CDF | buy | 1551.41 |
-| AUD | CDF | middle | 1587.205 |
-| AUD | CDF | sell | 1623 |
+| AUD | CDF | buy | 1555.09 |
+| AUD | CDF | middle | 1590.97 |
+| AUD | CDF | sell | 1626.85 |
 | BIF | CDF | buy | 0.74 |
 | BIF | CDF | middle | 0.755 |
 | BIF | CDF | sell | 0.77 |
-| CAD | CDF | buy | 1575.8 |
-| CAD | CDF | middle | 1612.16 |
-| CAD | CDF | sell | 1648.52 |
-| CHF | CDF | buy | 2671.36 |
-| CHF | CDF | middle | 2732.995 |
-| CHF | CDF | sell | 2794.63 |
-| CNY | CDF | buy | 331.4 |
-| CNY | CDF | middle | 339.045 |
-| CNY | CDF | sell | 346.69 |
-| EUR | CDF | buy | 2471.27 |
-| EUR | CDF | middle | 2528.29 |
-| EUR | CDF | sell | 2585.31 |
-| GBP | CDF | buy | 2950.52 |
-| GBP | CDF | middle | 3018.6 |
-| GBP | CDF | sell | 3086.68 |
-| INR | CDF | buy | 23.23 |
-| INR | CDF | middle | 23.77 |
-| INR | CDF | sell | 24.31 |
-| JPY | CDF | buy | 14.03 |
-| JPY | CDF | middle | 14.355 |
-| JPY | CDF | sell | 14.68 |
-| KWD | CDF | buy | 7114.83 |
-| KWD | CDF | middle | 7278.99 |
-| KWD | CDF | sell | 7443.15 |
+| CAD | CDF | buy | 1574.73 |
+| CAD | CDF | middle | 1611.065 |
+| CAD | CDF | sell | 1647.4 |
+| CHF | CDF | buy | 2667.31 |
+| CHF | CDF | middle | 2728.855 |
+| CHF | CDF | sell | 2790.4 |
+| CNY | CDF | buy | 331.56 |
+| CNY | CDF | middle | 339.21 |
+| CNY | CDF | sell | 346.86 |
+| EUR | CDF | buy | 2463.44 |
+| EUR | CDF | middle | 2520.28 |
+| EUR | CDF | sell | 2577.12 |
+| GBP | CDF | buy | 2942.82 |
+| GBP | CDF | middle | 3010.72 |
+| GBP | CDF | sell | 3078.62 |
+| INR | CDF | buy | 23.26 |
+| INR | CDF | middle | 23.795 |
+| INR | CDF | sell | 24.33 |
+| JPY | CDF | buy | 14 |
+| JPY | CDF | middle | 14.325 |
+| JPY | CDF | sell | 14.65 |
+| KWD | CDF | buy | 7103.78 |
+| KWD | CDF | middle | 7267.685 |
+| KWD | CDF | sell | 7431.59 |
 | RWF | CDF | buy | 1.5 |
-| RWF | CDF | middle | 1.535 |
-| RWF | CDF | sell | 1.57 |
-| SAR | CDF | buy | 589.49 |
-| SAR | CDF | middle | 603.095 |
-| SAR | CDF | sell | 616.7 |
+| RWF | CDF | middle | 1.53 |
+| RWF | CDF | sell | 1.56 |
+| SAR | CDF | buy | 589.45 |
+| SAR | CDF | middle | 603.055 |
+| SAR | CDF | sell | 616.66 |
 | TZS | CDF | buy | 0.84 |
 | TZS | CDF | middle | 0.855 |
 | TZS | CDF | sell | 0.87 |
 | UGX | CDF | buy | 0.5 |
-| UGX | CDF | middle | 0.51 |
-| UGX | CDF | sell | 0.52 |
-| USD | CDF | buy | 2210.59 |
-| USD | CDF | middle | 2261.6 |
-| USD | CDF | sell | 2312.61 |
-| XAF | CDF | buy | 3.77 |
-| XAF | CDF | middle | 3.855 |
-| XAF | CDF | sell | 3.94 |
-| XDR | CDF | buy | 2996.2 |
-| XDR | CDF | middle | 3065.33 |
-| XDR | CDF | sell | 3134.46 |
-| ZAR | CDF | buy | 132.53 |
-| ZAR | CDF | middle | 135.585 |
-| ZAR | CDF | sell | 138.64 |
+| UGX | CDF | middle | 0.515 |
+| UGX | CDF | sell | 0.53 |
+| USD | CDF | buy | 2210.46 |
+| USD | CDF | middle | 2261.46 |
+| USD | CDF | sell | 2312.46 |
+| XAF | CDF | buy | 3.76 |
+| XAF | CDF | middle | 3.845 |
+| XAF | CDF | sell | 3.93 |
+| XDR | CDF | buy | 2994.88 |
+| XDR | CDF | middle | 3063.985 |
+| XDR | CDF | sell | 3133.09 |
+| ZAR | CDF | buy | 132.77 |
+| ZAR | CDF | middle | 135.83 |
+| ZAR | CDF | sell | 138.89 |
 
 </details>
 
@@ -277,6 +277,7 @@ The Banque Centrale du Congo publishes the official exchange-market table for th
 
 - Publisher's own page: [Marché officiel des changes](https://www.bcc.cd/marche-des-changes/cours-de-change) · [www.bcc.cd](https://www.bcc.cd)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Banque Centrale du Congo rates page](https://allratestoday.com/central-bank-rates-api/bcc/)
+- In the API: usually by **08:20 UTC** (measured over the last 11 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
