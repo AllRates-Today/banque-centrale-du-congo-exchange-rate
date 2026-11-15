@@ -31,75 +31,7 @@ Get a free API key at [allratestoday.com/register](https://allratestoday.com/reg
 The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-<details>
-<summary>Table as text: published 2026-11-13 by Banque Centrale du Congo — 63 rates, first 60 shown. Updated 2026-11-13.</summary>
-
-| Base | Quote | Type | Rate |
-| --- | --- | --- | ---: |
-| AED | CDF | buy | 603.22 |
-| AED | CDF | middle | 617.14 |
-| AED | CDF | sell | 631.06 |
-| AOA | CDF | buy | 2.41 |
-| AOA | CDF | middle | 2.47 |
-| AOA | CDF | sell | 2.53 |
-| AUD | CDF | buy | 1513.04 |
-| AUD | CDF | middle | 1547.95 |
-| AUD | CDF | sell | 1582.86 |
-| BIF | CDF | buy | 0.73 |
-| BIF | CDF | middle | 0.75 |
-| BIF | CDF | sell | 0.77 |
-| CAD | CDF | buy | 1549.96 |
-| CAD | CDF | middle | 1585.725 |
-| CAD | CDF | sell | 1621.49 |
-| CHF | CDF | buy | 2656.8 |
-| CHF | CDF | middle | 2718.1 |
-| CHF | CDF | sell | 2779.4 |
-| CNY | CDF | buy | 332.16 |
-| CNY | CDF | middle | 339.825 |
-| CNY | CDF | sell | 347.49 |
-| EUR | CDF | buy | 2452.78 |
-| EUR | CDF | middle | 2509.37 |
-| EUR | CDF | sell | 2565.96 |
-| GBP | CDF | buy | 2933.97 |
-| GBP | CDF | middle | 3001.665 |
-| GBP | CDF | sell | 3069.36 |
-| INR | CDF | buy | 23.63 |
-| INR | CDF | middle | 24.175 |
-| INR | CDF | sell | 24.72 |
-| JPY | CDF | buy | 13.85 |
-| JPY | CDF | middle | 14.17 |
-| JPY | CDF | sell | 14.49 |
-| KWD | CDF | buy | 7113.46 |
-| KWD | CDF | middle | 7277.59 |
-| KWD | CDF | sell | 7441.72 |
-| RWF | CDF | buy | 1.49 |
-| RWF | CDF | middle | 1.525 |
-| RWF | CDF | sell | 1.56 |
-| SAR | CDF | buy | 590.75 |
-| SAR | CDF | middle | 604.385 |
-| SAR | CDF | sell | 618.02 |
-| TZS | CDF | buy | 0.83 |
-| TZS | CDF | middle | 0.85 |
-| TZS | CDF | sell | 0.87 |
-| UGX | CDF | buy | 0.54 |
-| UGX | CDF | middle | 0.555 |
-| UGX | CDF | sell | 0.57 |
-| USD | CDF | buy | 2209.97 |
-| USD | CDF | middle | 2260.96 |
-| USD | CDF | sell | 2311.95 |
-| XAF | CDF | buy | 3.74 |
-| XAF | CDF | middle | 3.825 |
-| XAF | CDF | sell | 3.91 |
-| XDR | CDF | buy | 2994.26 |
-| XDR | CDF | middle | 3063.345 |
-| XDR | CDF | sell | 3132.43 |
-| ZAR | CDF | buy | 132.95 |
-| ZAR | CDF | middle | 136.02 |
-| ZAR | CDF | sell | 139.09 |
-
-</details>
-
-[Full table on the Banque Centrale du Congo rates page](https://allratestoday.com/central-bank-rates-api/bcc/) · Source: [Official rates published by BCC, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcc/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+_The table is filled in by the daily workflow._
 <!-- daily-table:end -->
 
 ## 📦 Installation
