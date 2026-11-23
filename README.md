@@ -32,7 +32,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-20 by Banque Centrale du Congo — 63 rates, first 60 shown. Updated 2026-11-20.</summary>
+<summary>Table as text: published 2026-11-23 by Banque Centrale du Congo — 63 rates, first 60 shown. Updated 2026-11-23.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -42,38 +42,38 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 | AOA | CDF | buy | 2.41 |
 | AOA | CDF | middle | 2.465 |
 | AOA | CDF | sell | 2.52 |
-| AUD | CDF | buy | 1477.62 |
-| AUD | CDF | middle | 1511.715 |
-| AUD | CDF | sell | 1545.81 |
-| BIF | CDF | buy | 0.74 |
-| BIF | CDF | middle | 0.755 |
+| AUD | CDF | buy | 1474.56 |
+| AUD | CDF | middle | 1508.585 |
+| AUD | CDF | sell | 1542.61 |
+| BIF | CDF | buy | 0.73 |
+| BIF | CDF | middle | 0.75 |
 | BIF | CDF | sell | 0.77 |
-| CAD | CDF | buy | 1540.39 |
-| CAD | CDF | middle | 1575.93 |
-| CAD | CDF | sell | 1611.47 |
-| CHF | CDF | buy | 2617.73 |
-| CHF | CDF | middle | 2678.125 |
-| CHF | CDF | sell | 2738.52 |
-| CNY | CDF | buy | 331.37 |
-| CNY | CDF | middle | 339.015 |
-| CNY | CDF | sell | 346.66 |
-| EUR | CDF | buy | 2421.97 |
-| EUR | CDF | middle | 2477.855 |
-| EUR | CDF | sell | 2533.74 |
-| GBP | CDF | buy | 2901.63 |
-| GBP | CDF | middle | 2968.58 |
-| GBP | CDF | sell | 3035.53 |
-| INR | CDF | buy | 23.67 |
-| INR | CDF | middle | 24.215 |
-| INR | CDF | sell | 24.76 |
-| JPY | CDF | buy | 13.85 |
-| JPY | CDF | middle | 14.17 |
-| JPY | CDF | sell | 14.49 |
-| KWD | CDF | buy | 7092.79 |
-| KWD | CDF | middle | 7256.44 |
-| KWD | CDF | sell | 7420.09 |
-| RWF | CDF | buy | 1.49 |
-| RWF | CDF | middle | 1.525 |
+| CAD | CDF | buy | 1542.65 |
+| CAD | CDF | middle | 1578.245 |
+| CAD | CDF | sell | 1613.84 |
+| CHF | CDF | buy | 2623.34 |
+| CHF | CDF | middle | 2683.865 |
+| CHF | CDF | sell | 2744.39 |
+| CNY | CDF | buy | 331.25 |
+| CNY | CDF | middle | 338.895 |
+| CNY | CDF | sell | 346.54 |
+| EUR | CDF | buy | 2426.62 |
+| EUR | CDF | middle | 2482.61 |
+| EUR | CDF | sell | 2538.6 |
+| GBP | CDF | buy | 2896.78 |
+| GBP | CDF | middle | 2963.615 |
+| GBP | CDF | sell | 3030.45 |
+| INR | CDF | buy | 23.76 |
+| INR | CDF | middle | 24.305 |
+| INR | CDF | sell | 24.85 |
+| JPY | CDF | buy | 13.88 |
+| JPY | CDF | middle | 14.2 |
+| JPY | CDF | sell | 14.52 |
+| KWD | CDF | buy | 7087.53 |
+| KWD | CDF | middle | 7251.065 |
+| KWD | CDF | sell | 7414.6 |
+| RWF | CDF | buy | 1.5 |
+| RWF | CDF | middle | 1.53 |
 | RWF | CDF | sell | 1.56 |
 | SAR | CDF | buy | 589.1 |
 | SAR | CDF | middle | 602.69 |
@@ -81,21 +81,21 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 | TZS | CDF | buy | 0.83 |
 | TZS | CDF | middle | 0.85 |
 | TZS | CDF | sell | 0.87 |
-| UGX | CDF | buy | 0.53 |
-| UGX | CDF | middle | 0.54 |
+| UGX | CDF | buy | 0.52 |
+| UGX | CDF | middle | 0.535 |
 | UGX | CDF | sell | 0.55 |
 | USD | CDF | buy | 2209.03 |
 | USD | CDF | middle | 2260 |
 | USD | CDF | sell | 2310.97 |
-| XAF | CDF | buy | 3.69 |
-| XAF | CDF | middle | 3.775 |
-| XAF | CDF | sell | 3.86 |
-| XDR | CDF | buy | 2968.02 |
-| XDR | CDF | middle | 3036.5 |
-| XDR | CDF | sell | 3104.98 |
-| ZAR | CDF | buy | 127.48 |
-| ZAR | CDF | middle | 130.42 |
-| ZAR | CDF | sell | 133.36 |
+| XAF | CDF | buy | 3.7 |
+| XAF | CDF | middle | 3.785 |
+| XAF | CDF | sell | 3.87 |
+| XDR | CDF | buy | 2969.83 |
+| XDR | CDF | middle | 3038.355 |
+| XDR | CDF | sell | 3106.88 |
+| ZAR | CDF | buy | 126.16 |
+| ZAR | CDF | middle | 129.07 |
+| ZAR | CDF | sell | 131.98 |
 
 </details>
 
